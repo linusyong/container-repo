@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_container_repo_1694800661933-pr-trigger-input-set
+  identifier: Build_container_repo_1694800661933prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_container_repo_1694800661933
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
